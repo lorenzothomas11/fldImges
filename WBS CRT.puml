@@ -1,0 +1,119 @@
+WBS Classroom Events
+
+@startwbs
+
+<style>
+wbsDiagram {
+    .Dev-rdy {
+        BackgroundColor yellow    
+    }
+
+    .done {
+        BackgroundColor green     
+    }
+
+    .WIP {
+        BackgroundColor LightBlue
+    }
+    .blocked {
+        BackgroundColor Orange
+    }
+    .missing {
+        BackgroundColor Red
+    }
+    .out-of-scope {
+        Backgroundcolor gray
+    }
+}
+
+</style>
+
+* Classroom Events 
+
+** General 
+*** Newsletter 
+*** Terms and Conditions
+*** GDPR 
+
+** Discover Course 
+***< Frontend
+**** Tab For Classroom Events 
+**** Checkbox for Events (Leftside Filter)
+**** Seachbutton for CRT
+**** Sort by Events 
+***> Backend
+**** API for short course details
+**** Elastic Search
+**** Recieve Price Data
+
+
+** Course description
+***< Frontend
+**** [(B2B) Requestbox for Private Classroom Training]
+**** Customized Training requestpage (Onsite )
+**** Course description Component
+**** Event Date 
+**** Testvoucher
+**** Advanced courses
+***> Backend
+**** API from EMAN to recieve Course description information 
+**** Pricing 
+**** location data
+**** Course Materials
+**** brochures
+
+** Eventdate
+***< Classroom Training
+****< Frontend 
+***** Date 
+***** Location 
+***** Language 
+***** Timezone 
+***** Submit 
+***** Limit Number of Participants 
+****> Backend 
+***** Event date API 
+***> Virtual Classroom Event 
+****< Frontend 
+***** Webinar Provider 
+***** Date
+***** Language 
+***** Timezone
+****> Backend 
+***** Event Date API
+
+** SSO 
+*** Keycloak update 
+**** Implementation 
+*** API endpoint with EMAN x Fastlane ID
+
+** Campus
+***< Frontend
+**** Voucher
+**** Certification 
+**** Calendar
+***** Grace Period reminder
+***** Dates of booked courses 
+**** Confirmed CRT
+
+**** Feedback
+***> Backend
+**** Date Data 
+**** Booked Courses
+**** Voucher 
+**** MTM API  
+
+** Cart
+*** API uppdate cart CRT 
+
+** Payment
+*** Invoice Payment possibility 
+*** IBAN payment 
+*** Creditcard
+
+** MTM
+*** Iframe on Campus
+*** EMAN Data
+
+
+@endwbs
